@@ -1,7 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import PropTypes from 'prop-types';
-import {sub} from 'react-native-reanimated';
 
 const BottomBtn = (props) => {
 

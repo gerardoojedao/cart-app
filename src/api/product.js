@@ -12,6 +12,7 @@ export function* GetAllProducts() {
         });
 
         const dataWithPrices = response.data.amiibo.map((prod) => {
+
             //Simulate price
             prod.price = parseInt(prod.tail, 16) % 20000 + 1;
             return prod

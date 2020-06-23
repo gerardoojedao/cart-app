@@ -25,6 +25,14 @@ const productReducer = (state = initialState, action) => {
                     isLoading: false,
                 }
             };
+        case GET_ALL_PRODUCTS_ERROR:
+            return {
+                ...state,
+                productsList: {
+                    data: [],
+                    isLoading: false,
+                }
+            };
         default:
             return state;
     }

@@ -41,9 +41,6 @@ const SignInNavigator = createStackNavigator({
     initialRouteName: 'ProductList',
     defaultNavigationOptions: {
         headerTintColor: 'black',
-        headerTitleStyle: {
-            fontWeight: 'bold',
-        },
         headerBackTitleVisible: false,
     },
 });
